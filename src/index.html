@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Змейка</title>
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+
+  <div class="hello" id="hello">
+    <h1 class="hello__title"> Змейка </h1>
+    <div class="hello__choise">
+
+      <label class="hello__choise_item">
+        <input type="checkbox" id="one"> двигать яблоко
+      </label>
+
+      <label class="hello__choise_item" id="titleTwo">
+        <input type="checkbox" id='two'> двигать яблоко в случайном направлении
+      </label>
+<!-- 
+      <label class="hello__choise_item">
+        <input type="checkbox" id="three"> яблоко убегает от змейки
+      </label> -->
+      
+      <button class="hello__start" id='start'> играть </button>
+
+    </div>
+
+
+  </div>
+
+  
+
+  <canvas width="600" height="600" id="game"></canvas>
+
+  <script src="./scripts/index.js" type="module"></script>
+
+</body>
+
+</html>

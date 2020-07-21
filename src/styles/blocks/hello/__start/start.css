@@ -1,0 +1,12 @@
+.hello__start {
+    position: absolute;
+    top: 70vh;
+    width: 200px;
+    height: 50px;
+    font-size: 3rem;
+}
+
+.hello__start:hover {
+    cursor: pointer;
+}
+

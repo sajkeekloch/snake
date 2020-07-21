@@ -1,0 +1,9 @@
+@import './_item/item.css';
+
+.hello__choise {
+    display: flex;
+    font-size: 3rem;
+    flex-direction: column;
+    align-items: center;
+    transition: 1s;
+}

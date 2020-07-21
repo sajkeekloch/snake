@@ -1,0 +1,28 @@
+.hello__choise_item {
+    margin-top: 10px;
+    color: #ccc;
+    padding: 10px;
+    display: flex;
+    justify-self: start;
+}
+
+#one {
+    margin-bottom: 10px;
+    align-self: flex-end;
+}
+
+#two {
+    margin-bottom: 10px;
+    align-self: flex-end;
+}
+
+#titleTwo {
+    display: none;
+    transition: ease-in-out;
+}
+
+.hello__choise_item:hover {
+    cursor: pointer;
+    scale: 1.2;
+    color: teal;
+}
